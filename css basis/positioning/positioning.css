@@ -1,0 +1,48 @@
+div{
+    background-color: cyan;
+    border: 5px solid black;
+    margin: 20px;
+    padding: 20px;
+}
+#div2{
+    position: fixed;
+    bottom: 50px;
+}
+#div3{
+    
+    /* position:sticky; */
+       /* position: absolute; */
+
+
+       /*
+       position: relative;
+       top:-20px;
+       left: 30px;
+
+
+       */
+
+       /*static have no effect on top left*/
+
+
+     /*position: fixed;
+     top: 30px;/*positioning from page top*/
+
+
+
+     /*absolute with div2 as div 2 moves so is div 3*/
+     /*ABSOLUTE IS ALAWAYS WITH FIXED*/
+     position: absolute;
+     bottom: 30px;
+     left: 30px;
+
+
+
+   /* position: sticky;
+      it is not suitable
+   */
+    
+
+    
+
+}

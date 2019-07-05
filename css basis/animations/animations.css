@@ -1,0 +1,95 @@
+div{
+    height: 80px;
+    width: 80px;
+    margin: 40px;
+    background-color: blue;
+}
+@keyframes slide{
+    from {
+        margin-left: 40px;
+
+    }
+    to{
+        margin-left: 300px;
+    }
+}
+@keyframes crazyframes{
+    0%{
+        margin-left: 40px;
+    }
+    50%{
+        margin-left: 10px;
+        background-color: red;
+        height: 10px;
+    }
+    100%{
+        margin-left: 300px;
+        background-color: green;
+    }
+}
+@keyframes dik{
+    0%{
+        margin-left: 20px;
+        height: 200px;
+        background-color: blueviolet;
+        scale: 5
+        
+
+    }
+    20%{
+        margin-left: 20px;
+        height: 205px;
+        background-color: springgreen;
+        scale: 5
+        
+
+    }
+    40%{
+        margin-left: 730px;
+        height: 40px;
+        background-color: salmon;
+        scale: 5
+        
+
+    }
+    60%{
+        margin-bottom: 580px;
+        height: 70px;
+        background-color: rgb(49, 13, 83);
+        scale: 5
+        
+
+    }
+    80%{
+        margin: 205px;
+        height: 100px;
+        background-color: rgb(14, 177, 128);
+        scale: 15
+        
+
+    }
+    100%{
+        margin-left: 200px;
+        height: 20px;
+        background-color: burlywood;
+        scale: 2
+        
+
+    }
+}
+/* 
+#div2{
+animation-name: slide;
+animation-duration: 6s;
+animation-iteration-count: 30;
+} */
+div:hover + div{
+    animation-name: slide;
+    animation-duration: 6s;
+    animation-iteration-count: 30;
+}
+#div3:hover + div{
+    animation-name: dik;
+    animation-duration: 6s;
+    animation-iteration-count: 30;
+}

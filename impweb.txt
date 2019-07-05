@@ -1,0 +1,29 @@
+page load  hone k baad window load hota hI
+
+
+script padhege body se phele 
+window load k baad cahlega tab tak window aa chuki hogi
+
+
+head tag--> jab tak script read nhi no body and user perceives pge load slowli page white 
+
+script neeche user ka page load  ho jayega but no event until script load
+
+
+
+
+Differnce between innerText and InnerHTML
+
+we can use console to run javascript live on a page.it is called as REPL
+REPL is read evaluate  by interpreter print in a loop
+many languages have REPL inside it 
+eg python run hote hi lelega 
+our console is a REPL
+
+
+innertext only returns the text while the innerHTML returns the entire HTML that is been return inside it.
+
+
+
+
+

@@ -1,0 +1,32 @@
+div{
+    background-color: black;
+    
+}
+
+.div1{
+     width:33%; 
+     color: green;
+    
+     display: inline-block;
+     text-align: center;
+     padding-top: 10px;
+     padding-bottom: 10px;
+     /* font-family: fantasy;
+     font-size: 20px; */
+
+}
+.div2{
+    margin-top: 10px;
+     width: 33%;
+     object-fit: contain;
+     text-align:center;
+     color: red;
+     border-radius: 20%;
+     display: inline-block;
+}
+.div3{
+    width: 33%; 
+    text-align:center;
+    color: blue;
+    display: inline-block;
+}

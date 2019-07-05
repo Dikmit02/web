@@ -1,0 +1,19 @@
+#para1{
+    font-size: 30px;/* 1nvh=1/100of window height*/
+
+     
+}
+#para2{
+  /*  font-family: monospace/* 
+  /*it takes the similar width*/
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /*this is called a fall back champ if 1 not available ie Franklin Gothic Medium go to second ie Arial Narrow and so on*/
+}
+#para3{
+    font-style: italic;
+    font-weight: bold;
+}
+#para4{
+    word-spacing: 10px;
+    letter-spacing: 2px;
+}

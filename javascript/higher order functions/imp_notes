@@ -1,0 +1,18 @@
+let a=b;
+here we are giving refrenceof b to a 
+b can be anything a function,a object , a number, a string or anything
+
+
+let a=b()
+calling b and trying to execute the function b 
+// irt wil only work if b is a function 
+// if b is not a function then the a=b(); will not work
+
+let a=10;
+a();// error will be generated becz a is not a function 
+
+
+let a=unction(){
+
+}
+a();// it will run perfectly fine since a is function

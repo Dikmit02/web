@@ -1,0 +1,32 @@
+div{
+    margin: 100px;
+}
+#div1{
+    background-color: red;
+    height: 80px;
+    width: 80px;
+    margin: 100px;
+    
+}
+#div2{
+    background-color: darkcyan;
+    height: 50px;
+    width: 50px;
+    
+    
+}
+
+#div1:hover{
+    background-color: blue;
+    height: 40px;
+    transition: height 2s, background 10s;
+    
+}
+/* div+div{
+    margin-left: 300px;
+} */
+
+div:hover+div{
+    margin-left: 300px;
+    transition: margin 3s;
+}

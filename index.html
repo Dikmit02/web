@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+ 
+  <title>Document</title>
+
+   <style>
+
+     
+   *{
+     font-family: Arial;
+     font-size: 18pt;
+   }
+   
+   </style>
+  
+    
+    
+    
+</head>
+<body>
+<input id="name"><button id ="btn">ADD</button>
+<br>
+ 
+<ul id="list">
+  <li>TASK ONE </li>
+ 
+</ul>
+
+<script>
+     
+    let todoBox=document.getElementById('name')
+   
+    let addbtn=document.getElementById('btn')
+
+    let todolist=document.getElementById('list')
+    addbtn.onclick=function(){
+      let todo=todoBox.value
+
+    
+    // alternate to newTaskListitem
+    //when an eleent is not encapsuated with other elements //when the element is not inside any other element 
+    // when appendChild cannot be used
+    //  todolist.innerHTML+='<li>'+todo+'</li'>  used only when it is a bare elemnt 
+      // hrer using the above ie innerHTML is a bad idea because every time a list is added the whole list will refresh
+      // while using the appendchild method only the new list rhat is appeding will be refreshed
+
+
+      let newTaskListItem=
+          document.createElement('li')//<li> </li>
+      newTaskListItem.innerText=todo;
+      todolist.appendChild(newTaskListItem)
+
+     
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+ul ul {
+    display :none;
+
+}
+li:hover{
+    color:rgb(94, 224, 105);
+
+}
+
+
+li:hover> ul{
+    color: magenta;
+    display:block;
+}
+ul ul li:hover> ul{
+    display:block;
+    color: red;
+}
+
+
+
