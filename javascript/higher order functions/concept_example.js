@@ -6,5 +6,11 @@ function f1(){
 }
 
 let x=f1();
+console.log(f1)
+console.log(f1())
+console.log(x)
+
 let p=x();
+console.log(x)
+console.log(x())
 console.log(p)// 5
