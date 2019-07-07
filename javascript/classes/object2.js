@@ -3,7 +3,8 @@ let obj={
     aString:"asad",
     aFunction:function(){
         return (this.aNumber+this.aString);
-        //console.log(this.aNumber+this.aString)// this used to refer the object itself
+        //console.log(this.aNumber+this.aString)
+        // this used to refer the object itself
     }
 }
 console.log(obj.aFunction)//[Function: aFunction
