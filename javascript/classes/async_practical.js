@@ -71,6 +71,8 @@
 //     })
 // })
 
+
+
 function downloadFile(url,downloaded){
     // we are downloading the file
     // Let's assume it takes 3 seconds to download
