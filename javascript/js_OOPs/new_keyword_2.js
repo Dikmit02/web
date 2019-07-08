@@ -32,15 +32,16 @@ console.log("\n\n\n\n");
    console.log(this==global);
    return 10;
  }
- let o1=fun2();// this is global
+// let o1=fun2();// this is global
  let o2=new fun2();// return statemnet has no purpose // this is func2
  console.log("\n");
- console.log(o1);
- console.log(o2);
- console.log("\n");
- console.log(o1.p);
- console.log(o1.s)
- console.log("\n");
- console.log(o2.p);
- console.log(o2.s);
+// console.log(o1);
+ console.log(p);
+//  console.log(o2);
+//  console.log("\n");
+//  console.log(o1.p);
+//  console.log(o1.s)
+//  console.log("\n");
+//  console.log(o2.p);
+//  console.log(o2.s);
 
