@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+    <div id="one" class="item">Something</div>
+    <div  class="item">Something</div>
+    <div id="three" >Something</div>
+    <div class="item">Something</div>
+    <div >Something</div>
+    <div  class="item">Something</div>
+    
+    <!-- if document.getElementById('one') here we get the object
+    $('#one') here the return type is array
+    $('0ne')[0]==document.getElementById('one')
+    in jqury we dont get accress to the html directly we get the acess to the array -->
+</body>
+</html>
+
+<!-- 
+/*
+$('#one').text('sadsdasdasadSdas')
+jQuery.fn.init [div#one.item]
+let o=$('#one')
+undefined
+o
+jQuery.fn.init [div#one.item]
+// here o is the object
+undefined
+o.text() // it returns the store value of o
+"sadsdasdasadSdas"
+o.text('dijsxsj') // it store the value in o
+jQuery.fn.init [div#one.item]
+// if no argumrnt then getter if argument passed then setter it is an eexample of polymorphism
+undefined
+o.html
+ƒ ( value ) {
+		return access( this, function( value ) {
+			var elem = this[ 0 ] || {},
+				i = 0,
+				l = this.length;
+
+			if ( value === undefined && elem.nodeType === 1 ) {
+				return elem.innerHTML…
+o.html()
+"dijsxsj"
+o.html('hello <b> world</b>')
+jQuery.fn.init [div#one.item]
+o.text('hello <b> world</b>')
+jQuery.fn.init [div#one.item]
+$('#three').text('hello <b> world</b>')
+jQuery.fn.init [div#three]
+o.text('hello <b> world</b>')
+jQuery.fn.init [div#one.item]
+o.html('hello <b> world</b>')
+jQuery.fn.init [div#one.item]
+o.html()
+"hello <b> world</b>"
+o.text()
+"hello  world"*/ -->
