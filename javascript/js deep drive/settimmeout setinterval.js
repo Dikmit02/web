@@ -27,9 +27,9 @@ intervalId=setInterval(sayHello,1000)
 
 // anonymous function 
 // print and see the outpu
-setInterval(function(){
-    console.log("This runs after 1sec");
-},1000)
+// setInterval(function(){
+//     console.log("This runs after 1sec");
+// },1000)
 
 
 /*
